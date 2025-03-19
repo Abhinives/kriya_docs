@@ -1,7 +1,7 @@
 import streamlit as st
 import json
 import time
-from validation_agent2 import run_workflow
+from .validation_agent2 import run_workflow
 from dataname_mapping import map_data_names, llm
 
 def process_queries(file_path, user_queries):
