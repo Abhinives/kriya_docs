@@ -1,0 +1,17 @@
+[
+    {
+        "check": "tobacco linked organization",
+        "flag": "fail",
+        "found_organization": {}
+    },
+    {
+        "check": "Presence of all authors in contribution statement",
+        "flag": "fail",
+        "message": "The author 'Freia De Bock' is mentioned in the contribution statement but does not have a specific CRediT role assigned. Additionally, 'Sobir' is mentioned in the contribution statement but does not have a specific CRediT role assigned.",
+        "missing_authors": [],
+        "authors_without_credits": [
+            "Sobir",
+            "Freia De Bock"
+        ]
+    }
+]
